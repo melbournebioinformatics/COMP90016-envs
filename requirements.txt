@@ -1,5 +1,6 @@
 biopython
-jupyter
+jupyterlab
+notebook
 matplotlib
 numpy
 pandas
