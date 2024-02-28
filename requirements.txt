@@ -1,7 +1,6 @@
 biopython
-jupyterlab
+jupyter
 matplotlib
-notebook==6.5.5
 numpy
 pandas
 

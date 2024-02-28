@@ -27,9 +27,3 @@ RUN conda config --add channels conda-forge && \
 
 # Remove the undesired location from PATH
 RUN export PATH=$(echo $PATH | tr ':' '\n' | grep -v '/home/gitpod/.pyenv/shims' | tr '\n' ':')
-
-# Install Graphviz
-RUN sudo apt-get update -q \
-    && sudo apt-get install -yq \
-    apt-utils graphviz libgraphviz-dev \
-    && sudo rm -rf /var/lib/apt/lists/*
