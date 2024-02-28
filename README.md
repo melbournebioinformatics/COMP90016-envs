@@ -12,7 +12,7 @@ You will need to `conda install` any non-pip packages.
 
 ```bash
 # Increase gitpod timeout setting
-gp timeout set 6h
+gp timeout set 1h
 
 # Launch jupyter-lab
 jupyter lab --NotebookApp.allow_origin='*' --NotebookApp.allow_remote_access=True --NotebookApp.token='' --NotebookApp.password='' --no-browser --port=8888
