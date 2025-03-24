@@ -1,15 +1,13 @@
-name: workshops
+name: CG4
 channels:
-  - conda-forge
-  - bioconda
-  - defaults
+    - conda-forge
+    - bioconda
 dependencies:
-  - python=3.11 
-  - util-linux
+  - python==3.10
+  - bioconda::samtools
+  - bioconda::snpeff==4.3
+  - bioconda::snippy
+  - bioconda::pysam
+  - pip
   - pip:
-    - biopython
     - jupyterlab
-    - notebook
-    - matplotlib
-    - numpy
-    - pandas
