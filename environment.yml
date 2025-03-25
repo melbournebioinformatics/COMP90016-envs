@@ -1,4 +1,4 @@
-name: just_snippy 
+name: comp_genomic_wk4 
 channels:
     - conda-forge
     - bioconda
