@@ -1,16 +1,14 @@
-name: CG4
+name: just_snippy 
 channels:
     - conda-forge
     - bioconda
 dependencies:
-  - python==3.10
-  - bioconda::samtools
-  - bioconda::snpeff==4.3
-  - bioconda::snippy
-  - bioconda::pysam
-  - numpy
-  - matplotlib
-  - pandas
-  - pip
+  - python=3.10
+  - snippy=4.6
+  - snpEff=4.3
+  - pysam==0.22.1
+  - vt=2015.11.10=he941832_3
+  - pip 
   - pip:
     - jupyterlab
+
